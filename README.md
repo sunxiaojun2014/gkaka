@@ -1,4 +1,7 @@
 gkaka
 =====
 
-git test
+git 
+class 
+( (+) ("foo"))map
+1
