@@ -16,6 +16,8 @@ int main(void)
     pid = fork();
     log(pid);
     log(getppid());
+    log(getpgid(0));
+    log(getsid(0));
     if(pid == -1)
         return -1;
     else if (pid != 0)
@@ -50,7 +52,7 @@ int main(void)
 
 void log(int var)
 {
-    FILE *fp = fopen("./log.txt","w");
+    FILE *fp = fopen("./log.txt","a+");
     fprintf(fp,"%d",var);
     fputs("\r\n",fp);
 }
