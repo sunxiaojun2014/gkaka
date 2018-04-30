@@ -5,3 +5,4 @@ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 (3) bb
 (4) cc
 (5) dd
+(6) ee
