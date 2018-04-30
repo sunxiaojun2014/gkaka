@@ -6,3 +6,4 @@ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 (4) cc
 (5) dd
 (6) ee
+(7) ff
